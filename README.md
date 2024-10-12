@@ -61,7 +61,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 ## SQL Database Components
 
 ### ER Diagram
-![ER Diagram](images/er_diagram_image.png)
+![ER Diagram](Images/er_diagram_image.png)
 - **Overview:**
   - Illustrates relationships between entities in the database.
   - Highlights one-to-many and one-and-only relationships.
@@ -82,7 +82,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### Vehicle Table
 
-![Vehicle Table](Images/vehicle_table_image_1.jpg)
+![Vehicle Table](Images/vehicle_table_image_1.png)
 
 - **Purpose:** Stores information about vehicles registered by customers.
 - **Attributes:** VehicleID, CustomerID (FK), Year, Make, Model, VehicleType, VehicleSize, NumberOfDoors, ExteriorColor, InteriorColor, InteriorMaterial, FloorMatType.
@@ -91,7 +91,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### vehicletypelimits Table
 
-![vehicletypelimits Table](Images/vehicletypelimits_table_image_2.jpg)
+![vehicletypelimits Table](Images/vehicletypelimits_table_image_2.png)
 
 - **Purpose:** Stores limits and specifications for different vehicle types.
 - **Attributes:** TypeLimitID, CarType, CarSize, NumberOfDoors.
@@ -99,7 +99,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### Appointment Table
 
-![Appointment Table](Images/appointment_table_image_3.jpg)
+![Appointment Table](Images/appointment_table_image_3.png)
 
 - **Purpose:** Manages appointments made by customers.
 - **Primary Key:** AppointmentID.
@@ -108,7 +108,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### Appointment Service Table
 
-![Appointment Service Table](Images/appointment_service_table_image_4.jpg)
+![Appointment Service Table](Images/appointment_service_table_image_4.png)
 
 - **Purpose:** Represents the many-to-many relationship between appointments and services.
 - **Attributes:** AppointmentID and ServiceID.
@@ -141,7 +141,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### Customer Table
 
-![Customer Table](Images/customer_table_image_8.jpg)
+![Customer Table](Images/customer_table_image_8.png)
 
 - **Purpose:** Stores information about customers.
 - **Attributes:** CustomerID, FirstName, LastName, Email, Phone, Address.
@@ -150,7 +150,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### CustomerReview Table
 
-![CustomerReview Table](Images/customerreview_table_image_9.jpg)
+![CustomerReview Table](Images/customerreview_table_image_9.png)
 
 - **Purpose:** Records reviews from customers.
 - **Attributes:** ReviewID, CustomerID, AppointmentID, Date, Rating, Comments, EmployeeID.
@@ -158,7 +158,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### Employee Table
 
-![Employee Table](Images/employee_table_image_10.jpg)
+![Employee Table](Images/employee_table_image_10.png)
 
 - **Purpose:** Stores information about employees.
 - **Attributes:** EmployeeID, FirstName, LastName, Position, Wage, Rating.
@@ -170,14 +170,14 @@ Below are the images representing each SQL table structure:
 ## Procedures, Views, Triggers, and Functions
 ### PackageDetails View
 
-![Table 11](Images/table_11_image_11.jpg)
+![PackageDetails_View](Images/PackageDetails_View.png)
 
 - **Purpose:** Overview of car wash packages and included services.
 - **Attributes:** PackageID, PackageName, PackageDescription, PackagePrice, IncludedServices, TotalServices.
 
 ### Get Vehicle Sizes Function
 
-![Table 12](Images/table_12_image_12.jpg)
+![Vehicle_Sizes_Function](Images/Vehicle_Sizes_Function.png)
 
 - **Purpose:** Retrieves available sizes for a vehicle type.
 - **Input:** car_type (VARCHAR).
@@ -185,7 +185,7 @@ Below are the images representing each SQL table structure:
 
 ### Get Number Of Doors Function
 
-![Table 13](Images/table_13_image_13.jpg)
+![Get_Number_Of_Doors_Function](Images/Get_Number_Of_Doors_Function.png)
 
 - **Purpose:** Retrieves number of doors for a vehicle type.
 - **Input:** car_type (VARCHAR).
@@ -193,7 +193,7 @@ Below are the images representing each SQL table structure:
 
 ### Calculate Adjusted Package Price Function
 
-![Table 14](Images/table_14_image_14.jpg)
+![Adjusted Package Price Function](Images/Adjusted_Package_Price_Function.png)
 
 - **Purpose:** Calculates adjusted price for a car wash package.
 - **Input:** packageID (INT), vehicleTypeLimitID (INT).
@@ -201,14 +201,14 @@ Below are the images representing each SQL table structure:
 
 ### Adjust Employee Wage Procedure
 
-![Table 15](Images/table_15_image_14.jpg)
+![Adjust Employee Wage Procedure](Images/Adjust_Employee_Wage_Procedure.png)
 
 - **Purpose:** Adjusts employee wages based on average ratings.
 - **Input:** empID (INT).
 
 ### Trigger: Update_Employee_Rating
 
-![Table 16](Images/table_16_image_14.jpg)
+![Update_Employee_Rating Trigger](Images/Update_Employee_Rating_Trigger.png)
 
 - **Purpose:** Updates employee ratings on new reviews.
 - **Event:** AFTER INSERT ON CustomerReview.
