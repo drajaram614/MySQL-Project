@@ -25,29 +25,35 @@ This project not only highlights my skills in database design and web developmen
 ## Website Structure
 
 ### 1. Main Webpage
-![Main Webpage](path/to/main_webpage_image.jpg)
+![Main Webpage](Images/main_webpage_image.png)
 The landing page features an overview of the car wash services offered, customer testimonials, and links to various sections of the website.
 
 ### 2. Book Appointment Page
-![Book Appointment Page](path/to/book_appointment_image.jpg)
+![Book Appointment Page](Images/book_appointment_image_1.jpg)
+![Book Appointment Page](Images/book_appointment_image_2.jpg)
+![Book Appointment Page](Images/book_appointment_image_3.jpg)
 Customers can select their preferred services, fill out their details, and schedule an appointment through this form.
 
 ### 3. Package Price Page
-![Package Price Page](path/to/package_price_image.jpg)
+![Package Price Page](Images/package_price_image_1.jpg)
+![Package Price Page](Images/package_price_image_2.jpg)
+![Package Price Page](Images/package_price_image_3.jpg)
 This page lists all available car wash packages, detailed descriptions, and their respective prices.
 
 ### 4. Check Appointment Page
-![Check Appointment Page](path/to/check_appointment_image.jpg)
+![Check Appointment Page](Images/check_appointment_image.jpg)
+![Check Appointment Page](Images/check_appointment_image_2.jpg)
 Users can check their appointment status and details here.
 
 ### 5. Customer Service Page
-![Customer Service Page](path/to/customer_service_image.jpg)
+![Customer Service Page](Images/customer_service_image_1.jpg)
+![Customer Service Page](Images/customer_service_image_2.jpg)
 A dedicated page for customers to reach out for support and queries regarding the services offered.
 
 ## SQL Database Components
 
 ### ER Diagram
-![ER Diagram](path/to/er_diagram_image.jpg)
+![ER Diagram](images/er_diagram_image.png)
 - **Overview:**
   - Illustrates relationships between entities in the database.
   - Highlights one-to-many and one-and-only relationships.
@@ -153,14 +159,6 @@ A dedicated page for customers to reach out for support and queries regarding th
 ### Images for SQL Tables
 Below are the images representing each SQL table structure:
 
-11. ![Table 11](path/to/table_11_image_11.jpg)
-12. ![Table 12](path/to/table_12_image_12.jpg)
-13. ![Table 13](path/to/table_13_image_13.jpg)
-14. ![Table 14](path/to/table_14_image_14.jpg)
-15. ![Table 15](path/to/table_15_image_15.jpg)
-16. ![Table 16](path/to/table_16_image_16.jpg)
-17. ![Table 17](path/to/table_17_image_17.jpg)
-
 ## Procedures, Views, Triggers, and Functions
 ### PackageDetails View
 
@@ -195,14 +193,14 @@ Below are the images representing each SQL table structure:
 
 ### Adjust Employee Wage Procedure
 
-![Table 14](path/to/table_15_image_14.jpg)
+![Table 15](path/to/table_15_image_14.jpg)
 
 - **Purpose:** Adjusts employee wages based on average ratings.
 - **Input:** empID (INT).
 
 ### Trigger: Update_Employee_Rating
 
-![Table 14](path/to/table_16_image_14.jpg)
+![Table 16](path/to/table_16_image_14.jpg)
 
 - **Purpose:** Updates employee ratings on new reviews.
 - **Event:** AFTER INSERT ON CustomerReview.
