@@ -133,7 +133,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### PackageService Table
 
-![PackageService Table](Images/packageservice_table_image_7.jpg)
+![PackageService Table](Images/packageservice_table_image_7.png)
 
 - **Purpose:** Associates car wash packages with services.
 - **Attributes:** PackageID and ServiceID (Composite Key).
@@ -216,3 +216,28 @@ Below are the images representing each SQL table structure:
 ## Isolation Level
 - **Isolation Level Used:** REPEATABLE-READ
 - **Reason:** Ensures data consistency and prevents phantom reads during critical operations like appointments and reviews.
+
+
+
+# Key Skills Demonstrated in the Project
+
+- **Database Design and Management**
+  - Proficient in designing and implementing complex database schemas with ten tables.
+  - Experience in structuring databases for optimal performance and data integrity.
+
+- **MySQL Proficiency**
+  - Skilled in writing efficient SQL queries for data retrieval and manipulation.
+  - Expertise in defining primary and foreign keys to establish relationships between tables.
+  - Implemented data constraints to ensure validation and integrity of the database.
+
+- **Normalization Techniques**
+  - Applied normalization principles to reduce data redundancy and enhance organization.
+
+- **Web Application Development**
+  - Developed a user-friendly web interface for customer service requests using HTML and CSS.
+  - Integrated dynamic pricing logic based on vehicle type and size using PHP.
+
+- **Cybersecurity Practices**
+  - Ensured data integrity and security through the implementation of access controls and validation rules.
+  - Awareness of best practices for securing databases against common vulnerabilities (e.g., SQL injection).
+
