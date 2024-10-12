@@ -108,7 +108,7 @@ A dedicated page for customers to reach out for support and queries regarding th
 
 #### Appointment Service Table
 
-![Appointment Service Table](Images/appointment_service_table_image_4.png)
+![Appointment Service Table](Images/appointment_service_table_image_4.jpg)
 
 - **Purpose:** Represents the many-to-many relationship between appointments and services.
 - **Attributes:** AppointmentID and ServiceID.
